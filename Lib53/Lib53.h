@@ -5,4 +5,7 @@
 
 #pragma once
 
+#include "Complex.h"
+#include "Constants.h"
+#include "Polynomial.h"
 #include "VecMat.h"
