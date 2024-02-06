@@ -17,9 +17,9 @@ The library is currently in a very early state and not useful yet. Once it is us
 **\* \[name]**: Changed component.  
 **/ \[name]**: Bug fixed component.  
 *"\[text]"*: Description.  
-**\[function](pars1)**: Function overloads.
-           **(pars2)**
-           **...**
+**\[function](pars1)**: Function overloads.  
+           **(pars2)**  
+           **...**  
 **T, U, ...**: Template parameters.
 
 ### What's New?
