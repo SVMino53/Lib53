@@ -1,34 +1,20 @@
+// Lib53 
+// Created by Isak "Mino53" Forsberg, 2024-01-16
+// V 0.1, 2024-02-06
+
+// Header file for 'Test.cpp'.
+// (Read more in source file.)
+
+
 #pragma once
 
+#include <iostream>
+#include "Constants.h"
+#include "Fraction.h"
+#include "Functions.h"
 
 
 namespace Test
 {
-	// TODO: Add constraints; limit 'T' to be int, float or double.
-	template <typename T = double>
-	struct Vector2
-	{
-		T x, y;
-
-		Vector2();
-		Vector2(T x, T y);
-
-		Vector2 operator+(const Vector2& other) const;
-		Vector2 operator-(const Vector2& other) const;
-		template <typename U>
-		Vector2 operator*(const U& other) const;
-		template <typename U>
-		Vector2 operator/(const U& other) const;
-
-		Vector2& operator=(const Vector2& other);
-		Vector2& operator+=(const Vector2& other);
-		Vector2& operator-=(const Vector2& other);
-		template <typename U>
-		Vector2& operator*=(const U& other);
-		template <typename U>
-		Vector2& operator/=(const U& other);
-
-		bool operator==(const Vector2& other) const;
-		bool operator!=(const Vector2& other) const;
-	};
+   bool RunTest();
 }
