@@ -18,8 +18,8 @@ The library is currently in a very early state and not useful yet. Once it is us
 **/ \[name]**: Bug fixed component.  
 *"\[text]"*: Description.  
 **\[function](pars1)**: Function overloads.  
-           **(pars2)**  
-           **...**  
+	**(pars2)**  
+	**...**  
 **T, U, ...**: Template parameters.
 
 ### What's New?
@@ -45,13 +45,13 @@ The library is currently in a very early state and not useful yet. Once it is us
 		**+ int num** | *"Numerator."*  
 		**+ uint32_t den** | *"Denominator."*  
 		**+ Fraction()** | *"Constructors."*  
-		          **(int)**  
-		          **(float)**  
-		          **(double)**  
-		          **(int, uint32_t)**  
+			**(int)**  
+			**(float)**  
+			**(double)**  
+			**(int, uint32_t)**  
 		**+** ***Operators*** | *"Common C++ operators."*  
 	**+ std::ostream& operator<<(std::ostream&, const Fraction&)**  
 	**+ Fraction operator""_F(long double)** | *"Literal operator returning a 'Fraction'."*  
-	                       **(unsigned long long)**  
+		**(unsigned long long)**  
 **+ VecMat.h/.cpp** | *"Structs and functions for vectors and matrixes."* ***WIP***  
 **+ Complex.h/.cpp** | *"Structs and functions for complex numbers in standard and polar form."* ***WIP***
