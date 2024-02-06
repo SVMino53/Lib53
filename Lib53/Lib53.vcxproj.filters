@@ -13,15 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\OLD">
+      <UniqueIdentifier>{5907cf82-67a1-4a22-91c5-567cb6c7bab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OLD">
+      <UniqueIdentifier>{8f652c3d-2f67-4d32-962a-37ba45a58a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Testing">
+      <UniqueIdentifier>{3c4f0742-47de-487e-b5e4-1037798f2ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testing">
+      <UniqueIdentifier>{12d5638c-f1aa-4a19-9a51-f453310f233f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VecMat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Lib53.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Complex.h">
@@ -30,19 +36,46 @@
     <ClInclude Include="Constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="VecMat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VecMat_OLD.h">
+      <Filter>Header Files\OLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Complex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VecMat_OLD.cpp">
+      <Filter>Source Files\OLD</Filter>
+    </ClCompile>
     <ClCompile Include="VecMat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Complex.cpp">
+    <ClCompile Include="Functions.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Polynomial.h">
-      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
